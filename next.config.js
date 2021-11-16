@@ -39,6 +39,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
       return config
     },
     images: {
+      domains: ['applegate-paul.mo.cloudinary.net'],
       formats: ['image/avif', 'image/webp']
     }
   })
