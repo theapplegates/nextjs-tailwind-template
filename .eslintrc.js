@@ -2,6 +2,7 @@ module.exports = {
   root: true,
   env: {
     browser: true,
+    useTabs: false,
     amd: true,
     node: true,
     es6: true,
